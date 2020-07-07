@@ -1,14 +1,14 @@
 const Presentation = () => {
   return (
-    <section className="sm:relative">
-      <div className="sm:min-h-screen">
+    <section className="sm:relative max-h-screen">
+      <div className="sm:h-full">
         <img
           className="w-full h-auto"
           src="/images/computer-img.jpg"
           alt="hero"
         />
       </div>
-      <div className="py-5 sm:px-3 bg-gray-100 sm:w-5/12 sm:h-56 sm:absolute bottom-0 left-0 flex flex-col justify-around">
+      <div className="py-5 sm:px-3 bg-gray-100 sm:w-6/12 sm:h-64 sm:absolute bottom-0 left-0 flex flex-col justify-around">
         <h1 className="text-gray-800 leading-7 sm:leading-8 font-bold text-3xl sm:text-4xl mb-3">
           Hola, Soy Christian Gómez y soy un entusiasta de la programación.
         </h1>

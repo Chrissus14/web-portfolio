@@ -5,16 +5,16 @@ const Navbar = () => {
   const [navbarOpen, setNavbarOpen] = useState(false);
   return (
     <>
-      <nav className="relative flex flex-wrap items-center justify-between px-2 py-2 bg-gray-100 mb-3 navbar-expand-lg">
-        <div className="container mx-auto flex flex-wrap items-center justify-between">
+      <nav className="relative w-full bg-indigo-500 flex flex-wrap items-center justify-between px-2 py-2 mb-3 navbar-expand-lg">
+        <div className="sm:max-w-screen-lg w-full mx-auto flex flex-wrap items-center justify-between">
           <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
             <Link href="/">
-              <a className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-gray-900">
-                Christian Gomez
+              <a className="text-sm font-bold leading-relaxed inline-block mr-4 py-2 whitespace-no-wrap uppercase text-white">
+                Christian Gomez Portafolio
               </a>
             </Link>
             <button
-              className="text-gray-600 cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+              className="text-gray-100 cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >
@@ -36,14 +36,14 @@ const Navbar = () => {
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
               <li className="nav-item">
                 <Link href="/">
-                  <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-600 hover:opacity-75">
+                  <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-100 hover:opacity-75">
                     <span className="ml-2">Inicio</span>
                   </a>
                 </Link>
               </li>
               <li className="nav-item">
                 <Link href="/portafolio">
-                  <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-600 hover:opacity-75">
+                  <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-gray-100 hover:opacity-75">
                     <span className="ml-2">Portafolio</span>
                   </a>
                 </Link>

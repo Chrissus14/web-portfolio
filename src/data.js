@@ -1,14 +1,5 @@
 export default [
   {
-    id: 1,
-    image: "/images/portafolio.PNG",
-    title: "Mi portafolio",
-    description:
-      "Mi web para mostrar mis practicas que he realizado por mi cuenta, esta en ka versión 1, y es este mismo proyecto",
-    link: "/",
-    tools: ["React", "Next.js", "Tailwind css"],
-  },
-  {
     id: 2,
     image: "/images/todo-list-project.PNG",
     title: "TodoList App",

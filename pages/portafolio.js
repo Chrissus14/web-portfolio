@@ -4,6 +4,7 @@ import Layout from "../src/features/Layout";
 import Footer from "../src/features/Footer";
 import Header from "../src/components/Header";
 import data from "../src/data";
+import Navbar from "../src/features/Navbar";
 
 const Portafolio = () => {
   const cards = data.map((card) => (
@@ -19,8 +20,9 @@ const Portafolio = () => {
   return (
     <>
       <Header title="Portafolio" />
+      <Navbar />
       <Layout>
-        <section className="sm:flex sm:justify-start sm:flex-wrap">
+        <section className="sm:flex sm:justify-start sm:flex-wrap my-10">
           {cards}
         </section>
       </Layout>
