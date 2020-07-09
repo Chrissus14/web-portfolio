@@ -12,6 +12,20 @@ const Footer = () => {
             <a className="text-white font-semibold mx-4">Portafolio</a>
           </Link>
         </div>
+        <div className="text-white font-semibold mx-4">
+          Iconos diseñados por{" "}
+          <a
+            href="https://www.flaticon.es/autores/dinosoftlabs"
+            title="DinosoftLabs"
+          >
+            DinosoftLabs
+          </a>{" "}
+          from{" "}
+          <a href="https://www.flaticon.es/" title="Flaticon">
+            {" "}
+            www.flaticon.es
+          </a>
+        </div>
         <div>
           <a
             href="https://www.linkedin.com/in/christiandejesusgomezmurillo/"

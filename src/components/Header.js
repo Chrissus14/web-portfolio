@@ -10,7 +10,7 @@ const Header = ({ title }) => {
         integrity="sha512-xA6Hp6oezhjd6LiLZynuukm80f8BoZ3OpcEYaqKoCV3HKQDrYjDE1Gu8ocxgxoXmwmSzM4iqPvCsOkQNiu41GA=="
         crossOrigin="anonymous"
       />
-      <link rel="icon" href="/vercel.svg" />
+      <link rel="icon" href="/computadora.svg" />
     </Head>
   );
 };
