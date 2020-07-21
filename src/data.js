@@ -17,4 +17,13 @@ export default [
     link: "https://christian-gomez-portfolio.netlify.app/",
     tools: ["React", "Gatsby", "Tailwind", "Graphql"],
   },
+  {
+    id: 4,
+    image: "/images/amazon-clon.PNG",
+    title: "Ecommerce Amazon Clon",
+    description:
+      "Practica para crear un ecommerce como amazon con login y registro en firebase y carrito de compras",
+    link: "https://clone-eb159.web.app",
+    tools: ["React", "React Router", "Context Api", "Firebase"],
+  },
 ];
