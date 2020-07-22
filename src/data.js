@@ -22,8 +22,17 @@ export default [
     image: "/images/amazon-clon.PNG",
     title: "Ecommerce Amazon Clon",
     description:
-      "Practica para crear un ecommerce como amazon con login y registro en firebase y carrito de compras",
+      "Práctica para crear un ecommerce como amazon con login y registro en firebase y carrito de compras",
     link: "https://clone-eb159.web.app",
     tools: ["React", "React Router", "Context Api", "Firebase"],
+  },
+  {
+    id: 4,
+    image: "/images/todo-app.PNG",
+    title: "Todo app con Firebase",
+    description:
+      "Práctica de un CRUD con una todo list app conectada a Firebase",
+    link: "https://todo-app-c44d0.web.app/",
+    tools: ["React", "Firebase", "Material UI"],
   },
 ];
