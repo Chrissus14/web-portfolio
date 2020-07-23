@@ -35,4 +35,13 @@ export default [
     link: "https://todo-app-c44d0.web.app/",
     tools: ["React", "Firebase", "Material UI"],
   },
+  {
+    id: 4,
+    image: "/images/blog.PNG",
+    title: "Markdown blog 😍",
+    description:
+      "Práctica para aprender Next js y aprender sobre los sitios estaticos",
+    link: "https://christiangomezblog.vercel.app/",
+    tools: ["React", "Next.js"],
+  },
 ];
